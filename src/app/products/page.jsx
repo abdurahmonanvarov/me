@@ -13,7 +13,7 @@ const Page = () => {
             src="/me.jpg"
             alt="Men"
             width={200}
-            height={120}
+            height={90}
             className="border-2 border-white" // Borda qo'shish
           />
           <div>
@@ -59,13 +59,13 @@ const Page = () => {
           </h2>
           <p className="text-zinc-300">
             Email:{" "}
-            <a href="mailto:youremail@example.com" className="underline">
-              youremail@example.com
+            <a href="www.youtube.com/@SoloDou-z1t" className="underline">
+              www.youtube.com/@SoloDou-z1t
             </a>
             <br />
             Telegram:{" "}
-            <a href="https://t.me/yourusername" className="underline">
-              @yourusername
+            <a href="https://t.me/SOLO_0519" className="underline">
+              @SOLO_0519
             </a>
           </p>
         </section>
