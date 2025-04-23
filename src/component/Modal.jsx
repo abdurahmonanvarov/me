@@ -33,7 +33,7 @@ function Modal({ setIsOpenmModal }) {
           <X size={24} />
         </button>
         <h2 className="text-xl font-bold mb-4 text-center">
-          Bizni kuzatib boring!
+          Meni kuzatib boring!
         </h2>
         <div className="flex flex-col gap-4 items-center">
           <a

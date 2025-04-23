@@ -37,7 +37,7 @@ export default function Page() {
           />
 
           {/* Title */}
-          <h1 className="text-3xl font-bold">Salom, men Muhammad</h1>
+          <h1 className="text-3xl font-bold">Salom, men Abduraxmon</h1>
 
           {/* About */}
           <p className="text-zinc-400">
