@@ -18,17 +18,17 @@ function Modal({ setIsOpenmModal }) {
   }, [countdown, setIsOpenmModal]);
 
   return (
-    <div className="fixed inset-0 bg-black bg-opacity-60 flex items-center justify-center z-50">
+    <div className="fixed inset-0 bg-black bg-opacity-80 flex items-center justify-center z-50">
       <motion.div
         initial={{ scale: 0 }}
         animate={{ scale: 1 }}
         exit={{ scale: 0 }}
         transition={{ duration: 0.3 }}
-        className="bg-white p-6 rounded-2xl shadow-xl w-80 relative"
+        className="bg-zinc-900 text-white p-6 rounded-2xl shadow-xl w-80 relative"
       >
         <button
           onClick={() => setIsOpenmModal(false)}
-          className="absolute top-3 right-3 text-gray-500 hover:text-black"
+          className="absolute top-3 right-3 text-gray-400 hover:text-white transition"
         >
           <X size={24} />
         </button>
@@ -40,7 +40,7 @@ function Modal({ setIsOpenmModal }) {
             href="https://www.instagram.com/"
             target="_blank"
             rel="noopener noreferrer"
-            className="bg-pink-500 text-white w-full py-2 rounded-xl text-center hover:bg-pink-600 transition"
+            className="bg-pink-600 text-white w-full py-2 rounded-xl text-center hover:bg-pink-700 transition"
           >
             Instagram
           </a>
@@ -48,7 +48,7 @@ function Modal({ setIsOpenmModal }) {
             href="https://t.me/SOLO_0519"
             target="_blank"
             rel="noopener noreferrer"
-            className="bg-blue-500 text-white w-full py-2 rounded-xl text-center hover:bg-blue-600 transition"
+            className="bg-blue-600 text-white w-full py-2 rounded-xl text-center hover:bg-blue-700 transition"
           >
             Telegram
           </a>
@@ -56,7 +56,7 @@ function Modal({ setIsOpenmModal }) {
             href="https://www.youtube.com/@SoloDou-z1t"
             target="_blank"
             rel="noopener noreferrer"
-            className="bg-red-500 text-white w-full py-2 rounded-xl text-center hover:bg-red-600 transition"
+            className="bg-red-600 text-white w-full py-2 rounded-xl text-center hover:bg-red-700 transition"
           >
             YouTube
           </a>

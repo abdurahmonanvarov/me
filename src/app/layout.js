@@ -14,7 +14,7 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata = {
-  title: "Product",
+  title: "Abduraxmon's Portfolio",
   description: "Good texnology",
 };
 

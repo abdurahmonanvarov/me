@@ -33,7 +33,7 @@ export default function Page() {
             alt="Men"
             width={200}
             height={120}
-            className="border-2 border-white" // Borda qo'shish
+            className="border-2 border-white rounded-4xl" // Borda qo'shish
           />
 
           {/* Title */}
@@ -47,7 +47,7 @@ export default function Page() {
 
           {/* Button */}
           <Link href="/products">
-            <button className="bg-yellow-400 text-black px-6 py-2 rounded-xl hover:bg-yellow-300 transition">
+            <button className="bg-yellow-400 text-black px-6 py-2 cursor-pointer rounded-xl hover:bg-yellow-300 transition">
               Men haqimda ko'proq malumotlar
             </button>
           </Link>

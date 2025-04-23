@@ -34,8 +34,8 @@ function Page() {
     <div className="flex flex-col items-center justify-center min-h-screen bg-black text-white p-6">
       <h1 className="text-4xl font-bold mb-4">Bog‘lanish</h1>
       <p className="text-lg text-center mb-8 max-w-xl text-zinc-400">
-        Har qanday savol yoki taklif uchun biz bilan bog‘laning. Formani
-        to‘ldiring — sizga tez orada javob beramiz.
+        Har qanday savol yoki taklif uchun men bilan bog‘laning. Formani
+        to‘ldiring — sizga tez orada javob beraman.
       </p>
 
       <form
